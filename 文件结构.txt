@@ -1,0 +1,16 @@
+ai_trading
+├── data # 存储历史数据和实时数据
+├── models # 存储机器学习模型
+├── output # 存储输出结果，如图表和报告
+├── strategies # 交易策略相关代码
+│ ├── __init__.py
+│ └── triple_top_bottom.py
+├── utils # 实用工具，如数据处理和绘图功能
+│ ├── __init__.py
+│ ├── ccxt_utils.py
+│ ├── data_utils.py
+│ └── plot_utils.py
+├── config.py # 配置文件，包括API密钥和其他设置
+├── main.py # 主程序入口
+├── README.md # 项目说明文档
+└── requirements.txt # 项目依赖列表
